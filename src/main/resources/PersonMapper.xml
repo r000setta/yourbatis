@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.example.demo.mapper.PersonMapper">
+    <select id="getPersonById" resultType ="com.example.demo.bean.Person">
+        select * from person where id = ?
+    </select>
+</mapper>
